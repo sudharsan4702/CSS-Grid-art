@@ -1,0 +1,321 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(15,10px);
+    grid-template-rows: repeat(18,10px);
+}
+
+.cap1{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 11;
+}
+.cap2{
+    background-color: red;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 14;
+}
+.head1{
+    background-color: sandybrown;
+    grid-row-start: 4;
+    grid-row-end: 9;
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+.head2{
+    background-color: sandybrown;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.head3{
+    background-color: sandybrown;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+.head4{
+    background-color: sandybrown;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.head5{
+    background-color: sandybrown;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+.head6{
+    background-color: sandybrown;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+.nose1{
+    background-color: sandybrown;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 12;
+    grid-column-end: 14;
+}
+.nose2{
+    background-color: sandybrown;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 14;
+    grid-column-end: 15;
+}
+.mustache1{
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.mustache2{
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 10;
+    grid-column-end: 14;
+}
+.hair1{
+    background-color: brown;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.hair2{
+    background-color: brown;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.hair3{
+    background-color: brown;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.hair4{
+    background-color: brown;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.hair5{
+    background-color: brown;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.ear{
+    background-color: sandybrown;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.eye{
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+.shirt1{
+    background-color: red;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.shirt2{
+    background-color: red;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.shirt3{
+    background-color: red;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.shirt4{
+    background-color: red;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.shirt5{
+    background-color: red;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+.shirt6{
+    background-color: red;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+.shirt7{
+    background-color: red;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+.shirt8{
+    background-color: red;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 13;
+    grid-column-end: 14;
+}
+.shirt9{
+    background-color: red;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.hand1{
+    background-color: sandybrown;
+    grid-row-start: 12;
+    grid-row-end: 15;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.hand2{
+    background-color: sandybrown;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.hand3{
+    background-color: sandybrown;
+    grid-row-start: 12;
+    grid-row-end: 15;
+    grid-column-start: 12;
+    grid-column-end: 14;
+}
+.hand4{
+    background-color: sandybrown;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-column-start: 11;
+    grid-column-end: 12;
+}
+.pant1{
+    background-color: mediumblue;
+    grid-row-start: 11;
+    grid-row-end: 15;
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+.pant2{
+    background-color: mediumblue;
+    grid-row-start: 14;
+    grid-row-end: 16;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+.pant3{
+    background-color: mediumblue;
+    grid-row-start: 14;
+    grid-row-end: 16;
+    grid-column-start: 9;
+    grid-column-end: 12;
+}
+.pant4{
+    background-color: mediumblue;
+    grid-row-start: 12;
+    grid-row-end: 14;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.pant5{
+    background-color: mediumblue;
+    grid-row-start: 12;
+    grid-row-end: 14;
+    grid-column-start: 10;
+    grid-column-end: 11;
+}
+.pant6{
+    background-color: mediumblue;
+    grid-row-start: 9;
+    grid-row-end: 14;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.pant7{
+    background-color: mediumblue;
+    grid-row-start: 9;
+    grid-row-end: 14;
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+.shoe1{
+    background-color: brown;
+    grid-row-start: 16;
+    grid-row-end: 18;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+.shoe2{
+    background-color: brown;
+    grid-row-start: 16;
+    grid-row-end: 18;
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+.shoe3{
+    background-color: brown;
+    grid-row-start: 17;
+    grid-row-end: 18;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.shoe4{
+    background-color: brown;
+    grid-row-start: 17;
+    grid-row-end: 18;
+    grid-column-start: 13;
+    grid-column-end: 14;
+}
+.button1{
+    background-color: yellow;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.button2{
+    background-color: yellow;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
